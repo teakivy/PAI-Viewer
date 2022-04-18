@@ -1,0 +1,25 @@
+/*
+ * @author Collin Jones
+ * @description App Styles
+ * @version 2022.4.11
+ */
+
+
+.App {
+    text-align: center;
+    vertical-align: middle;
+    align-self: center;
+    font-family: 'Anek Odia';
+}
+
+.shortcut-holder {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+}
+
+.sc-container {
+    margin-top: 10vh;
+}

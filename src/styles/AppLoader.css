@@ -1,0 +1,36 @@
+/**
+ * @author Collin Jones
+ * @description AppLoader Styles
+ * @version 2022.4.15
+ */
+ 
+ .loading-spinner {
+    position: absolute;
+    margin-top: 45vh;
+    width: 90vw;
+    margin-left: 5vw;
+    animation-duration: .2s;
+}
+
+.spinner-bg {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(39, 33, 33, .5);
+    position: absolute;
+    margin: 0px;
+    text-align: center;
+    vertical-align: middle;
+    z-index: 100;
+    animation-duration: .2s;
+    opacity: 1;
+}
+
+.app-holder {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+}
+
+.clear {
+    opacity: 0;
+}

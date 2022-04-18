@@ -1,0 +1,28 @@
+/**
+ * @author Collin Jones
+ * @description Shortcut Styles
+ * @version 2022.4.11
+ */
+
+.shortcut-wrapper {
+    cursor: default;
+    padding-top: 5px;
+    position: relative;
+    transition-duration: .2s;
+    width: fit-content;
+}
+
+.shortcut-wrapper:hover {
+    transform: translateY(-2px);
+}
+
+.shortcut-key {
+    background-color: #2d2d30;
+    color: white;
+    padding: 5px;
+    padding-bottom: 1px;
+    border-radius: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    cursor: default;
+}
